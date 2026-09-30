@@ -1,6 +1,6 @@
 *.map
 *.sym
 *.o
-*.gb
+0*/*.gb
 *.sn?
 .vscode/

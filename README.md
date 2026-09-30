@@ -1,7 +1,10 @@
 # Game Boy Synthesis and Sequencing
 
-## Build
+## tl;dr
 
+Take roms from `roms/` directory and play in emulator (intended use is via Game Boy Color emulation)
+
+## Build
 
 ```
 # Fix paths to your RGBDS suite in `common.mk`
@@ -13,13 +16,13 @@ $ make -C "03 lin"
 $ make -C "04 dnb"
 ```
 
-### Run
+### Test
 
 ```
+# Fix path to your emulator in `common.mk`
+# Build and run rom, e.g.
+
 $ make -C "01 rng" run
-$ make -C "02 nrn" run
-$ make -C "03 lin" run
-$ make -C "04 dnb" run
 ```
 
 ## Intro
