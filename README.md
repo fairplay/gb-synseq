@@ -24,7 +24,7 @@ $ make -C "04 dnb" run
 
 ## Intro
 
-1. This is a series of experiments in audio programming for the Game Boy, exploring ideas of generative sound synthesis and sequencing in a limited environment while learning Game Boy assembler programming.
+This is a series of experiments in audio programming for the Game Boy, exploring ideas of generative sound synthesis and sequencing in a limited environment while learning Game Boy assembler programming.
 
 The heart of the most of sequencers is the 8-bit shift register, built upon the idea of the Rungler circuit by Rob Hordijk.
 
